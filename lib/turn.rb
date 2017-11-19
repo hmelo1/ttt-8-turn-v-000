@@ -41,5 +41,5 @@ def turn(board)
   input = gets.strip
 
   index = input_to_index(input)
-  puts "#{index}"
+  print "#{index}"
 end
