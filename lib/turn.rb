@@ -36,6 +36,6 @@ def position_taken?(board, index)
   board[index] != " "
 end
 
-def taken(board)
+def turn(board)
   puts "Please enter 1-9:"
 end
