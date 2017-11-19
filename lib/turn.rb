@@ -10,6 +10,11 @@ def move(board, player_input, character = "X")
   board[player_input] = character
 end
 
+def input_to_index(player_input)
+  player_input.to_i - 1
+end
+
+
 def valid_move?(board, index)
   index.between?(0, 8) && !position_taken(board, index)
 end
