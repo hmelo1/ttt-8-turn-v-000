@@ -35,3 +35,7 @@ def position_taken?(board, index)
   taken
   board[index] != " "
 end
+
+def taken(board)
+  puts "Please enter 1-9:"
+end
